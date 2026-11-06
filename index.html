@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birra y Bíceps</title>
+    <!-- Incluimos los estilos base -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- HEADER CON LOGIN -->
+    <header>
+        <div class="brand-container">
+            <h1 class="logo-title">🍻💪 BIRRA Y BÍCEPS</h1>
+            <p class="slogan">Porque la vida es equilibrio.</p>
+        </div>
+        <div class="login-container" id="login-container">
+            <!-- El contenido del login o estado logueado se carga dinámicamente vía JS -->
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- En React, esto será <CategoriaSection /> -->
+        <!-- Usaremos #categorias-container para inyectar dinámicamente el HTML desde js/main.js -->
+        <div id="categorias-container">
+            <article class="container loading">
+                <div class="loader"></div>
+            </article>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>🍻 Birra y Bíceps © 2025 - Gimnasio con Actitud | Bebe con Responsabilidad 🍺</p>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="/js/auth.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
